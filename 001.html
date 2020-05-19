@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="oo1.css">
+    <title>Hora do Dia</title>
+</head>
+
+<body onload="carregar()">
+    <header >
+        <h1>Hora do Dia </h1>
+    </header>
+    <section >
+        <div>
+            <p>Digite as horas:
+                <input type="text" name="txthora" id="txthora" min="1" max="3">
+            </p>
+            <p>
+                <input id="botao" type="submit" value="Verificar" onclick="verificar()">
+            </p>
+        </div>
+        <div id="msg">
+            Aqui vai aparecer a mensagem...
+        </div>
+        <div id="foto">
+            <img id="imagem" src="tempo.jpg" alt="foto do dia">
+            
+        </div>
+        <p id="comp">comprimentos</p>
+    </section>
+    <footer >
+        <p>&copy; By FabricioSantos - 2020 </p>
+    </footer>
+    <script src="001.js"></script>
+</body>
+
+</html>
